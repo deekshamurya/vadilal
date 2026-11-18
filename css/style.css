@@ -1,0 +1,42 @@
+.mycard
+{
+    height: 450px;
+    background-color: #fee4ca;
+    border-radius: 30px;
+    transition: 0.6s ease;
+}
+.mycard:hover
+{
+    transform:translateY(-40px);
+}
+
+{
+  font-size: 12px;  
+box-shadow: 4px 4px 0px #6b3d2b;
+
+}
+.mycard #foot h5,h6
+{
+color: #6b3d2b;
+
+}
+.mycard div img
+{
+    transform: rotate(-20deg);
+    transition:o.6s ease;
+}
+.mycard:hover img
+{
+  transform:translateY(-110px) ;
+filter:drop-shadow(7px 7px 5px  gray) ;
+}
+.mycard #foot
+{
+transition: 0.5 ease;
+
+}
+.mycard:hover #foot
+{
+transform:translateY(-20px) ;
+
+}
